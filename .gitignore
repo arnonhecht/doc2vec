@@ -1,0 +1,4 @@
+flask-app/.env
+flask-app/.aws
+**/__pycache__
+credentials

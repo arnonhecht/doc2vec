@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body dir="rtl">
+  <div class="background-image-container"></div>
+  <div class="content">
+    <div class="header">
+      <div class="title">
+        שלומות!
+      </div>
+      <div class="sub-title">
+        הגעת לעמוד העלאת, מחיקת ועריכת שאלות. נחמד לא?
+      </div>
+    </div>
+
+    <div class="section todo-list" dir="ltr"></div>
+
+    <div class="section">
+      <div>הוסיפי שאלה:</div>
+      <input type="text" class="new-question" />
+      <div>הוסיפי תוית:</div>
+      <input type="text" class="new-label" />
+      <div>
+        <button onclick="addQuestion()">הוסיפי:</button>
+
+      </div>
+      <!-- <div>הקבצים לאחר עיבוד:</div>
+      <div class="converter-dom-elements-container">
+        <!--  -->
+      </div> -->
+    </div>
+
+    <div class="section text-align-center">
+      <div class="file-name-status"></div>
+      <div class="progress-status"></div>
+    </div>
+
+
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script> -->
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script> -->
+  <script>
+    // // Initialize Firebase
+    // var config = {
+    //   apiKey: "AIzaSyD7XsUY6ObxE4Z7iLg7rZW-0TZCqK5bvec",
+    //   authDomain: "fugara-revelations.firebaseapp.com",
+    //   databaseURL: "https://fugara-revelations.firebaseio.com",
+    //   projectId: "fugara-revelations",
+    //   storageBucket: "fugara-revelations.appspot.com",
+    //   messagingSenderId: "892679996381"
+    // };
+    // firebase.initializeApp(config);
+  </script>
+  <!-- <script src="./jszip.min.js"></script>
+  <script src='./backend.js'></script>
+  <script src='./imageConverter.js'></script> -->
+  <script src='./main.js'></script>
+  </script>
+</body>
+
+</html>
